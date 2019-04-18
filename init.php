@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Blank Options Page 
-Description: Barebones object oriented options page for wordpress
+Description: Bare-bones object-oriented options page for wordpress
 Author: Luke Cleavland
 Version: 1
 */
@@ -21,10 +21,6 @@ class options_page {
 	}
 
 	function admin_menu() {
-        $page_title = 'EC Customize Options';
-        $menu_title = 'EC Customize';
-        $capability = 'manage_options';
-        $menu_slug = 'ec-customize';
 		add_options_page(
 			'Blank Options', //page title
 			'Blank Options', //menu title
